@@ -144,6 +144,62 @@ export default function Index() {
         </div>
       </div>
 
+      <div className="bg-white py-16">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12">Категории товаров</h2>
+          
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+            <a href="#" className="group flex flex-col items-center p-6 bg-gray-50 hover:bg-gradient-to-br hover:from-primary/10 hover:to-secondary/10 rounded-2xl transition-all duration-300">
+              <div className="w-16 h-16 bg-gradient-to-br from-primary to-secondary rounded-2xl flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
+                <span className="text-3xl">📱</span>
+              </div>
+              <span className="font-semibold text-center">Электроника</span>
+              <span className="text-sm text-muted-foreground">124 товара</span>
+            </a>
+
+            <a href="#" className="group flex flex-col items-center p-6 bg-gray-50 hover:bg-gradient-to-br hover:from-primary/10 hover:to-secondary/10 rounded-2xl transition-all duration-300">
+              <div className="w-16 h-16 bg-gradient-to-br from-primary to-secondary rounded-2xl flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
+                <span className="text-3xl">🏠</span>
+              </div>
+              <span className="font-semibold text-center">Для дома</span>
+              <span className="text-sm text-muted-foreground">89 товаров</span>
+            </a>
+
+            <a href="#" className="group flex flex-col items-center p-6 bg-gray-50 hover:bg-gradient-to-br hover:from-primary/10 hover:to-secondary/10 rounded-2xl transition-all duration-300">
+              <div className="w-16 h-16 bg-gradient-to-br from-primary to-secondary rounded-2xl flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
+                <span className="text-3xl">🎮</span>
+              </div>
+              <span className="font-semibold text-center">Игры и хобби</span>
+              <span className="text-sm text-muted-foreground">67 товаров</span>
+            </a>
+
+            <a href="#" className="group flex flex-col items-center p-6 bg-gray-50 hover:bg-gradient-to-br hover:from-primary/10 hover:to-secondary/10 rounded-2xl transition-all duration-300">
+              <div className="w-16 h-16 bg-gradient-to-br from-primary to-secondary rounded-2xl flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
+                <span className="text-3xl">⚽</span>
+              </div>
+              <span className="font-semibold text-center">Спорт</span>
+              <span className="text-sm text-muted-foreground">53 товара</span>
+            </a>
+
+            <a href="#" className="group flex flex-col items-center p-6 bg-gray-50 hover:bg-gradient-to-br hover:from-primary/10 hover:to-secondary/10 rounded-2xl transition-all duration-300">
+              <div className="w-16 h-16 bg-gradient-to-br from-primary to-secondary rounded-2xl flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
+                <span className="text-3xl">👗</span>
+              </div>
+              <span className="font-semibold text-center">Одежда</span>
+              <span className="text-sm text-muted-foreground">98 товаров</span>
+            </a>
+
+            <a href="#" className="group flex flex-col items-center p-6 bg-gray-50 hover:bg-gradient-to-br hover:from-primary/10 hover:to-secondary/10 rounded-2xl transition-all duration-300">
+              <div className="w-16 h-16 bg-gradient-to-br from-primary to-secondary rounded-2xl flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
+                <span className="text-3xl">🍽️</span>
+              </div>
+              <span className="font-semibold text-center">Кухня</span>
+              <span className="text-sm text-muted-foreground">71 товар</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
       <footer className="bg-white border-t py-8">
         <div className="container mx-auto px-4 text-center text-muted-foreground">
           <p>© 2024 СовместныеПокупки. Экономь вместе с нами! 🚀</p>
