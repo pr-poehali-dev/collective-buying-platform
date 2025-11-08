@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Icon from "@/components/ui/icon";
+import CreateProductDialog from "./CreateProductDialog";
 
 export default function Header() {
   return (
@@ -27,10 +28,7 @@ export default function Header() {
           <Button variant="ghost" size="icon">
             <Icon name="Bell" size={20} />
           </Button>
-          <Button>
-            <Icon name="Plus" size={18} className="mr-2" />
-            Создать складчину
-          </Button>
+          <CreateProductDialog />
         </div>
       </div>
     </header>

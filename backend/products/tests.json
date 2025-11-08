@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Get all products",
+      "method": "GET",
+      "path": "/",
+      "expectedStatus": 200
+    },
+    {
+      "name": "Create new product",
+      "method": "POST",
+      "path": "/",
+      "body": {
+        "action": "create",
+        "title": "Test Product",
+        "description": "Test description",
+        "total_price": 10000,
+        "max_participants": 10,
+        "category": "Тест"
+      },
+      "expectedStatus": 201
+    }
+  ]
+}
