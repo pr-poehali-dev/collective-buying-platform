@@ -7,16 +7,16 @@ export default function Header() {
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <div className="w-10 h-10 bg-gradient-to-br from-primary to-secondary rounded-xl flex items-center justify-center">
-            <Icon name="ShoppingBag" className="text-white" size={24} />
+            <Icon name="TrendingUp" className="text-white" size={24} />
           </div>
           <span className="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-            СовместныеПокупки
+            ForexСкладчина
           </span>
         </div>
         
         <nav className="hidden md:flex items-center gap-6">
           <a href="#" className="text-foreground/70 hover:text-foreground transition">Каталог</a>
-          <a href="#" className="text-foreground/70 hover:text-foreground transition">Мои покупки</a>
+          <a href="#" className="text-foreground/70 hover:text-foreground transition">Мои складчины</a>
           <a href="#" className="text-foreground/70 hover:text-foreground transition">Как это работает</a>
         </nav>
 
@@ -29,7 +29,7 @@ export default function Header() {
           </Button>
           <Button>
             <Icon name="Plus" size={18} className="mr-2" />
-            Создать покупку
+            Создать складчину
           </Button>
         </div>
       </div>

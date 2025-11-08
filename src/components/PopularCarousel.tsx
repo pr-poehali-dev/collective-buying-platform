@@ -16,30 +16,30 @@ interface Product {
 const popularProducts: Product[] = [
   {
     id: 1,
-    title: "Беспроводные наушники Premium",
-    image: "https://cdn.poehali.dev/projects/eb84c298-d91c-4705-b215-906eb79c4778/files/5f8b7140-6cff-47cf-b8f7-97eac2ff6dc2.jpg",
-    totalPrice: 15000,
-    currentParticipants: 8,
-    maxParticipants: 10,
-    pricePerPerson: 1500
+    title: "PRO Trading Course - Полный курс трейдинга",
+    image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=400&h=300&fit=crop",
+    totalPrice: 89000,
+    currentParticipants: 42,
+    maxParticipants: 50,
+    pricePerPerson: 1780
   },
   {
     id: 2,
-    title: "Умные часы Sport Edition",
-    image: "https://cdn.poehali.dev/projects/eb84c298-d91c-4705-b215-906eb79c4778/files/befd6712-dc6e-418f-a784-cf305516fecb.jpg",
-    totalPrice: 25000,
-    currentParticipants: 15,
-    maxParticipants: 20,
-    pricePerPerson: 1250
+    title: "Smart Money EA - Советник с ИИ",
+    image: "https://images.unsplash.com/photo-1642790106117-e829e14a795f?w=400&h=300&fit=crop",
+    totalPrice: 45000,
+    currentParticipants: 28,
+    maxParticipants: 30,
+    pricePerPerson: 1500
   },
   {
     id: 3,
-    title: "Портативная колонка Mega Sound",
-    image: "https://cdn.poehali.dev/projects/eb84c298-d91c-4705-b215-906eb79c4778/files/fcde9c21-469a-4a8c-83b3-54a8bb8798b8.jpg",
-    totalPrice: 8000,
-    currentParticipants: 6,
-    maxParticipants: 8,
-    pricePerPerson: 1000
+    title: "Gold Scalper Strategy - Стратегия скальпинга",
+    image: "https://images.unsplash.com/photo-1621761191319-c6fb62004040?w=400&h=300&fit=crop",
+    totalPrice: 35000,
+    currentParticipants: 18,
+    maxParticipants: 25,
+    pricePerPerson: 1400
   }
 ];
 
@@ -60,7 +60,7 @@ export default function PopularCarousel() {
         <div className="flex items-center justify-between mb-4">
           <div>
             <h2 className="text-2xl font-bold mb-1">🔥 Популярное сейчас</h2>
-            <p className="text-muted-foreground">Товары, которые скоро начнут собирать средства</p>
+            <p className="text-muted-foreground">Цифровые продукты для трейдинга, которые скоро начнут сбор</p>
           </div>
           <div className="flex gap-2">
             <Button variant="outline" size="icon" onClick={prevSlide}>
@@ -122,7 +122,7 @@ export default function PopularCarousel() {
 
                   <Button size="lg" className="w-full">
                     <Icon name="UserPlus" size={20} className="mr-2" />
-                    Присоединиться к покупке
+                    Присоединиться к складчине
                   </Button>
                 </div>
               </div>
